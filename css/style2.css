@@ -1,0 +1,495 @@
+/*Start header*/
+.btn-primary:hover, .btn-primary:active{
+    background-color: #efc5c4;
+    border-color: #efc5c4;
+    color: #fff;
+}
+
+.btn-primary{
+    background-color: #C99190;
+    border-color: #C99190;
+}
+
+.btn-secundary:hover, .btn-secundary:active{
+    background-color: #F4EEED;
+    border-color: #F4EEED;
+}
+
+.btn-secundary{
+    background-color: #E0E1CE;
+    border-color: #E0E1CE;
+}
+
+.modal-header{
+    background-color: #deb4b3
+}
+
+.main-menu{
+    position: fixed;
+    width: 100%;
+    background: white;
+    z-index:10;
+    top: 0;
+}
+
+.features_area .feature_item{
+    background-color: #F4EEED;
+    height: 27.5em;
+    margin: 2em 0;
+}
+
+header .main-menu .container{
+    width: 100%;
+    position: relative;
+    padding: unset;
+}
+
+header .main-menu .logo_h img , logo_h{
+    width: 80px;
+}
+
+header .main-menu .menu-navbar {
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    right: 0;
+    top: -10px;
+    transform:rotate(0);
+}
+header .main-menu .menu-nav{
+    display: inline-block;
+    padding: 0;
+    transform:rotate(0);
+}
+
+header .main-menu .menu-nav > li{
+    display: inline;
+    font: 500 14px/100px "Rubik", sans-serif;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 5px;
+    transform:rotate(0);
+}
+
+header .main-menu .menu-nav > li a{
+    font-size: 20px;
+    color: #000000;
+}
+
+header .main-menu .menu-nav > li a:hover{
+    color: #EFC5C4;
+    text-decoration: underline;
+}
+
+.header_area .navbar .nav .nav-item .nav-link {
+        font: 500 14px/100px "Rubik", sans-serif;
+        text-transform: uppercase;
+        color: #000000;
+        padding: 0px;
+        display: inline-block;
+}
+
+@media (max-width: 1420px){
+
+     header .main-menu .menu-nav > li a{
+         font-size: 17px;
+     }
+ }
+
+
+
+@media (max-width: 770px){
+    header .main-menu .container{
+        height: 100px;
+        width: 100%;
+        margin-right: unset;
+        margin-left: unset;
+        max-width: unset;
+    }
+
+    header .main-menu .logo_h img{
+        width: 100px;
+        display:inline-block;
+        position: absolute;
+        right: auto;
+        top: auto;
+        left: 0;
+        bottom: auto;
+    }
+    header .main-menu .menu-navbar{
+        font-size: 15px;
+        right: 20px;
+     }
+     header .main-menu .menu-nav > li a{
+         font-size: 15px;
+     }
+}
+
+@media (max-width: 620px){
+    header .main-menu .logo_h img{
+        top:20px
+    }
+    header .main-menu .menu-nav{
+        display: block;
+        height: 45px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 665px){
+    header .main-menu .menu-navbar{
+        display: none;
+    }
+}
+
+@media (max-width: 450px){
+     header .main-menu .container {
+         height: 140px;
+     }
+    header .main-menu .logo_h img{
+        top: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100px;
+    }
+    header .main-menu .menu-navbar{
+        right: 0;
+        width: 254px;
+        height: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -25px;
+    }
+    header .main-menu .menu-nav{
+        height: 45px;
+        text-align: center;
+        font-size: 15px;
+        margin: 5px 0;
+    }
+     header .main-menu .menu-nav > ul{
+         font-size: 15px;
+     }
+}
+/*End header*/
+
+/*Start home*/
+.home_banner_area {
+    position: relative;
+    z-index: 9;
+    background: blanchedalmond;
+    background-size: 300px;
+    background-position: left;
+    background-color: #eeeeee;
+}
+@media (max-width:770px) {
+    .home_banner_area{
+        height: 42em;
+    }
+}
+
+
+@media (max-width:450px) {
+    .home_banner_area {
+    position: relative;
+    z-index: 9;
+    background: blanchedalmond;
+    background-size: 300px;
+    background-position: left;
+    background-color: #eeeeee;
+    margin-bottom: -100px;
+    padding-bottom: 0;
+}
+
+}
+/*End home*/
+
+
+/*Start sobre*/
+.about_area{
+    z-index: 3;
+    padding-top: 100px;
+    background: linear-gradient(#eeeeee,#ffffff);
+}
+.about_area .about-me{
+     font-size: 17px;
+ }
+
+.about_area .primary_btn {
+    margin-top: 5px;
+}
+
+@media (max-width:770px) {
+    .about_area{
+        padding-top: 120px;
+    }
+}
+@media (max-width: 450px){
+    .about_area .primary_btn{
+        display: none; !important;
+    }
+    .about_area{
+    }
+    .about-me h2{
+         font-size: 20px;
+     }
+    .about-me p{
+         font-size: 15px;
+     }
+    .about_area {
+        padding-bottom: 20px;
+        padding-top: 140px;
+        background: linear-gradient(#eeeeee,#ffffff);
+    }
+
+}
+
+/*End sobre*/
+
+/*Start habilidades*/
+
+.features_area{
+    padding-top: 100px;
+}
+
+.carousel-control-prev{
+    width: 50px;
+    height: 50px;
+    margin-top: 150px;
+}
+
+.carousel-control-next{
+    width: 50px;
+    height: 50px;
+    margin-top: 150px;
+}
+
+.previous{
+    width: 2em;
+    margin-right: 100px;
+}
+.next{
+    width: 2em;
+    margin-left: 100px;
+}
+
+@media (max-width: 1220px){
+    .features_area .feature_item{
+        height: 33em;
+    }
+}
+
+@media (max-width: 992px){
+    .features_area .feature_item{
+        height: 24em;
+    }
+}
+
+@media (max-width: 1000px) {
+    .carousel-item {
+        position: relative;
+        display: inline-block;
+        align-items: center;
+        width: 100%;
+        backface-visibility: hidden;
+        perspective: 1000px;
+    }
+
+    .carousel-item{
+        display: inline-block;
+    }
+
+    .previous {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .next {
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+@media (max-width: 650px) {
+    .features_area {
+        padding-top: 120px;
+
+    }
+}
+
+@media (max-width: 450px) {
+    .features_area {
+        padding-top: 150px;
+
+    }
+}
+
+/* Start portifolio*/
+
+.portfolio_area{
+    padding-top: 100px;
+}
+
+
+.single_portfolio:hover .overlay{
+    border-radius: 10px 10px 10px 10px;
+}
+
+.info-project{
+    color: black;
+    background: linear-gradient(#E0E1CE, #E0E1CE);
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.info-project p , .info-project h2{
+    padding: 10px;
+}
+
+.description{
+    text-align: left;
+}
+
+.modal-dialog {
+    max-width: 600px;
+}
+
+.modal-footer{
+    padding-top: 5px;
+    margin: 0;
+}
+
+@media (max-width: 620px){
+    .portfolio_area{
+        padding-top: 120px;
+    }
+}
+
+@media (max-width: 450px) {
+    .portfolio_area{
+    padding-top: 150px;
+    }
+}
+
+/* end portifolio*/
+
+/* Start YouTube */
+
+#youtube{
+    padding-top: 100px;
+}
+
+.posts{
+    height: 600px;
+    margin: 0;
+}
+
+.post{
+    width: 50em;
+    margin: 0;
+    max-width: 95%;
+}
+
+.post:hover{
+    box-shadow: 0px 15px 30px rgba(77, 87, 222, 0.3);
+    background: #fff;
+}
+
+.tumb > a{
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+.capa{
+    width: 280px;
+    height: 200px
+}
+
+.testi_text{
+    position: relative;
+    margin: 0 auto;
+    width: 26em;
+    text-align: justify;
+}
+
+.testimonial_area .owl-carousel .owl-item img {
+    width: 140px !important;
+    height: auto !important;
+}
+
+.owl-carousel .owl-item img {
+    width: 140px  !important;
+    height: auto !important;
+
+}
+
+ .owl-carousel .owl-item  {
+     margin: 3px;
+ }
+
+.owl-dots{
+    margin-top: 2em;
+}
+
+.owl-carousel .owl-stage-outer {
+    max-height: 530px;
+}
+
+
+@media (max-width: 1000px) {
+    .posts{
+        max-width: 95%;
+        margin: 0 auto;
+    }
+
+    .capa{
+        width: 230px;
+        height: 200px
+    }
+
+    .testi_item .testi_text h4{
+        font-size: 15px;
+    }
+    .testi_item .testi_text {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 620px){
+    #youtube{
+        padding-top: 120px;
+    }
+}
+
+
+@media (max-width: 450px) {
+    #youtube {
+        padding-top: 150px;
+    }
+
+    .main_title {
+        margin-bottom: 20px;
+    }
+
+    .post:hover {
+        box-shadow: none;
+        background: none;
+    }
+
+    .capa {
+        width: 160px;
+        height: 130px
+    }
+
+    .testi_item .testi_text {
+        margin-top: 20px;
+    }
+}
+/*end youtube*/
+
+/*Start footer*/
+@media (max-width: 450px) {
+    .footer_area{
+        padding-top: 150px;
+    }
+}
